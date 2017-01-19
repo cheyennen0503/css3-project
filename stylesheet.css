@@ -1,5 +1,21 @@
-body { 
-    background: url(https://hannacreates.files.wordpress.com/2015/03/invite-template.jpg);
-    background-size: cover;
+#background {
+    position: fixed;
+    z-index:-1;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image: url(https://hannacreates.files.wordpress.com/2015/03/invite-template.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+    opacity: 0.4;
+    
+}
+
+#title {
+   background:white;
+   background:radial-gradient(circle,white,gray,black);
+   text-align:center;
+   padding: 15px;
 }
