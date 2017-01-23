@@ -25,11 +25,11 @@ h3 {
     padding:20px 0px;
     margin: 75px 600px 0px ;
     font-size: 20px;
-    animation: subtitle 2s linear 1s 1 normal;
+    animation: subtitle 2s linear 1.7s 1 normal; /* the title of the animation, how long the animation will take, the timing function of the animation, the delay meaning when it will start after the page has loaded, how many times the animation will iterate, what direction the animation is going*/
     
 }
 
-@keyframes subtitle {
+@keyframes subtitle { /* what the animation is doing*/
   
     from {color: white;}
      to {color: black;}
