@@ -17,5 +17,52 @@
    background:white;
    background:radial-gradient(circle,white,gray,black);
    text-align:center;
-   padding: 15px;
+   padding: 20px 60px;
+   margin: 30px 200px;
+}
+h3 {
+    text-shadow: 2px 2px;
+    padding:20px 0px;
+    margin: 75px 600px 0px ;
+    font-size: 20px;
+    animation: subtitle 2s linear 1s 1 normal;
+    
+}
+
+@keyframes subtitle {
+  
+    from {color: white;}
+     to {color: black;}
+}  
+
+
+h4 {
+    color: white;
+}
+
+.info {
+    background-color: black;
+    margin: 50px 500px 20px ;
+    padding: 20px 40px;
+    display: block;
+    text-align: center;
+    transition: all .2s ease-in-out;
+  
+}
+.info:hover {
+    transform: scale(2,2);
+}
+
+.info2 {
+    background-color: black;
+    margin:  0px 500px;
+    padding: 20px 40px;
+    display: block;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    
+}
+
+.info2:hover {
+    transform: scale(2,2);
 }
